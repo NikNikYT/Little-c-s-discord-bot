@@ -21,7 +21,7 @@ async def on_member_join(member):
 
 @client.event
 async def on_ready():
-    await client.change_presence(game=Game(name='you live', type = 3))
-    print('Ready, Freddy')
+    await client.change_presence(game=Game(name='You', type = 3))
+    print('Bot is Online.')
 
 client.run(os.getenv('TOKEN'))
