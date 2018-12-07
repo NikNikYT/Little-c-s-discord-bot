@@ -16,7 +16,7 @@ Clientdiscord = discord.Client()
 @client.event
 async def on_member_join(member):
     print('Recognised that a member called ' + member.name + ' joined')
-    await client.send_message(member, 'Welcome to Little_cs Fan Club, make sure to read the rules and have a good time.')
+    await client.send_message(member, 'Welcome to Little_c Fan Club, make sure to read the rules and have a good time.')
     print('Sent message to ' + member.name)
 
 @client.event
